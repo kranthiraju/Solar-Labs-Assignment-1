@@ -1,0 +1,34 @@
+body
+{
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 5%;
+  width: 60%;
+  margin-top: 5rem;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 0rem 0.75rem;
+  border-radius: 0.5rem;
+}
+.main {
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scrollbar-width: thin;
+  gap: 5rem;
+}
+.mini
+{
+  position: relative;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+}

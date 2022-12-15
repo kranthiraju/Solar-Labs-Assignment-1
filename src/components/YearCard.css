@@ -1,0 +1,55 @@
+.yearMain {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 25rem;
+  margin: 1rem 0;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 0rem 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.yearMain .dropbox {
+  position: relative;
+  display: flex;
+  height: max-content;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid;
+  border-radius: 0.2rem;
+  width: 10rem;
+  margin: 0.5rem 0;
+  background-color: rgb(140, 255, 228);
+}
+.yearMain .reset,
+.yearMain .calculate {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin: 1rem 0;
+}
+.yearMain .field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+
+input[type="number"]
+{
+  background-color: rgb(140, 255, 228);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
